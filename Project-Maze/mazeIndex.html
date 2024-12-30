@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My maze</title>
+        <link rel="stylesheet" href="mazeStyle.css">
+        <script src="Javacscript/mazeJs.js" defer></script>
+    </head>
+    <body>
+            <h1>Maze game</h1>
+            <select name="difficultyList">
+                <option id ="select-items" value="1">Kindergaten</option>
+                <option id ="select-items"  value="2">Secondary</option>
+                <option id ="select-items"  value="3">Highschool</option>
+                <option id ="select-items"  value="4">Barchelon</option>
+            </select>
+            <div>
+                <input type="button" value="Confirm your education level and start" id="choose" onclick="doMaze()">
+            </div>   
+            <div>        
+                <input type="button" value="Stop generating" id="start" onclick="stopGen()">
+                <input type="button" value="Resume generating" id="stop" onclick="resumeGen()">
+            </div> 
+            <canvas id="maze"></canvas>
+
+    </body>
+    <footer>
+
+    </footer>
+</html>

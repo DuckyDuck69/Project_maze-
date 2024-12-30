@@ -1,0 +1,45 @@
+h1{
+    color: pink;
+}
+canvas{ 
+    border: 2px black;
+    display: block;
+}
+body{
+    background-color:antiquewhite;
+}
+input{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+select {
+    width: 10rem;
+    background-color: #c3f0c6;
+    border: #b2eeac 2px solid;
+}
+select>option {
+    background-color: #b8e1ba;
+}
+#select-items:hover {
+    background-color: #7180AC;
+}
+#choose{
+    background-color: #C7FFED; /* Green */
+    color: #9C7178;
+    border-radius: 8px;
+}
+#start{
+    background-color: #C7FFED; /* Green */
+    color: #9C7178;
+    border-radius: 8px;
+}
+#stop{
+    background-color: #E49273; /* Green */
+    color: #A8D0DB;
+    border-radius: 8px;
+}
